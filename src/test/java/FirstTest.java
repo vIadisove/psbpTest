@@ -21,12 +21,14 @@ public class FirstTest extends Config {
         StepConfirm stepConfirm = new StepConfirm();
         stepConfirm.confirm("0000");
 
-        StepOpenAcc stepOpenAcc = new StepOpenAcc();
-        stepOpenAcc.openAcc();
+        StepChoseService stepChoseService = new StepChoseService();
+        stepChoseService.ChoseService();
 
-        StepOpenAISettings stepOpenAISettings = new StepOpenAISettings();
-        stepOpenAISettings.openAISettings();
+        StepInputDetails stepInputDetails = new StepInputDetails();
+        stepInputDetails.InputDetails();
 
+        StepCheck stepCheck = new StepCheck();
+        stepCheck.Check("В демо-версии переводы не разрешены");
 
     }
 
