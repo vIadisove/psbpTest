@@ -21,19 +21,12 @@ public class FirstTest extends Config {
         StepConfirm stepConfirm = new StepConfirm();
         stepConfirm.confirm("0000");
 
-        //StepCheckNavMenu stepCheckNavMenu = new StepCheckNavMenu();
-        //stepCheckNavMenu.checkNavMenu();
-
-        //StepTestCase stepTestCase = new StepTestCase();
-        //stepTestCase.TestCase();
-
         StepOpenAcc stepOpenAcc = new StepOpenAcc();
         stepOpenAcc.openAcc();
 
         StepOpenAISettings stepOpenAISettings = new StepOpenAISettings();
         stepOpenAISettings.openAISettings();
 
-        sleep(4000);
 
     }
 
